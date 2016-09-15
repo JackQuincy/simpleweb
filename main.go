@@ -15,7 +15,7 @@ func main() {
 		fmt.Fprintln(w, "<br>This server has served", count, " requests")
 		count++ 
 	}) 
-	log.Fatal(http.ListenAndServe(":8080", nil))
+	log.Fatal(http.ListenAndServe(":80", nil))
 
 }
 
